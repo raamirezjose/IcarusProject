@@ -6,7 +6,7 @@ import { mongoDb,port } from '../env';
 import http  from 'http';
 import mqtt from 'mqtt';
 
-var client  = mqtt.connect('mqtt://159.89.33.196');
+var client  = mqtt.connect('mqtt://35.208.61.217');
 
 export const conectionmqtt = (direction)=>{
    
