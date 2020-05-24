@@ -28,8 +28,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./API/juggernautServer.js",
-    "dev": "nodemon ./API/juggernautServer.js",
+    "start": "node ./API/icarusServer.js",
+    "dev": "nodemon ./API/icarusServer.js",
     "dev2": "nodemon --exec babel-node ./API/prueba.js"
   },
   "keywords": [],

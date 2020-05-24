@@ -10,7 +10,7 @@ var client  = mqtt.connect('mqtt://35.208.61.217');
 
 export const conectionmqtt = (direction)=>{
    
-  client.publish('JuggernautDirection', direction);
+  client.publish('IcarusDirection', direction);
   console.log(direction);
 };
   

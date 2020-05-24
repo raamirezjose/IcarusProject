@@ -186,7 +186,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }  
 
   southPost() async {
-    String url = 'http://10.0.2.2:3300/postroutemap';
+    String url = 'http://35.208.61.217:3300/postroutemap';
     Map map = {
       'data': {'time': '2'},
     };
@@ -195,7 +195,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   northPost() async {
-    String url = 'http://10.0.2.2:3200/postroutemap';
+    String url = 'http://35.208.61.217:3200/postroutemap';
     Map map = {
       'data': {'time': '3'},
     };
@@ -204,7 +204,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   eastPost() async {
-    String url = 'http://10.0.2.2:3100/postroutemap';
+    String url = 'http://35.208.61.217:3100/postroutemap';
     Map map = {
       'data': {'time': '4'},
     };
@@ -213,7 +213,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   westPost() async {
-    String url = 'http://10.0.2.2:3400/postroutemap';
+    String url = 'http://35.208.61.217:3400/postroutemap';
     Map map = {
       'data': {'time': '5'},
     };
@@ -222,7 +222,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   stopPost() async {
-    String url = 'http://10.0.2.2:3500/postroutemap';
+    String url = 'http://35.208.61.217:3500/postroutemap';
     Map map = {
       'data': {'time': '0'},
     };
